@@ -1,0 +1,11 @@
+
+
+- [x] The file IO
+- [x] Filling the file in ppm format 'Image class'
+- [x] Adding utilities like vector and color And adding a 'Ray class'
+- [x] First premetive object: a sphere
+- [x] The ray and sphere collision
+- [x] A gradient background for the scene 
+- [x] Shading the sphere, i.e. adding light with surface normal
+- [x] Object material
+- [ ] Different images based on the above
