@@ -27,8 +27,12 @@ struct Sphere {
     float radius;
     Color material;
 
-    Sphere(Vec3 center, float radius, Color material)
-        : center(center), radius(radius), material(material) {}
+    Sphere() :
+        center(Vec3(0.0f, 0.0f, 0.0f)), radius(0.3f),
+        material(Color(255.0f, 255.0f, 255.0f)) {}
+
+    Sphere(Vec3 center, float radius, Color material) : 
+        center(center), radius(radius), material(material) {}
 
     float intersects(Ray ray);
 };
