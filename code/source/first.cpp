@@ -23,7 +23,7 @@ int main(void) {
 15  0 15    0  0  0    0  0  0    0  0  0";
 
     DWORD bytes_written;
-    BOOL success = WriteFile(file_handle, data1, strlen(data), &bytes_written, NULL);
+    BOOL success = WriteFile(file_handle, data1, strlen(data1), &bytes_written, NULL);
 
     if (!success) return -1;
     return 0;
